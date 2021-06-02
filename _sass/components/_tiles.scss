@@ -109,13 +109,13 @@
 
 			&:nth-child(6n - 5) {
 				&:before {
-					background-color: _palette(accent1);
+					background-color: #38545d;
 				}
 			}
 
 			&:nth-child(6n - 4) {
 				&:before {
-					background-color: _palette(accent2);
+					background-color: #38545d;
 				}
 			}
 
@@ -146,6 +146,7 @@
 
 		@include breakpoint(large) {
 			article {
+				background-color: #F0FFFF;
 				@include padding(4em, 3em);
 				height: 30vh;
 				max-height: 30em;
